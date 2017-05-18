@@ -3,6 +3,9 @@
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
     "baseUrl": "src",
+    "paths": {
+      "@modules/*": [ "../@modules/*" ]
+    },
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
