@@ -2,7 +2,7 @@ import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 
 import { AppComponent } from './app.component';
-import { NetTrekModule } from '@modules/net-trek/net-trek.module';
+import { NetTrekModule } from '@nettrek/net-trek/net-trek.module';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {

@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NetTrekModule } from '@modules/net-trek/net-trek.module';
+import { NetTrekModule } from '@netTrek/net-trek/net-trek.module';
 
 @NgModule({
   declarations: [

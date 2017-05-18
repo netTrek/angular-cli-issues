@@ -27,7 +27,9 @@ getTestBed().initTestEnvironment(
 
 // Then we find all the tests.
 
-const context = require.context('../', true, /\/(@modules|src)\/.*\/.*\.spec\.ts$/);
+// const context = require.context('../', true, /\/(@modules|src)\/.*\/.*\.spec\.ts$/);
+
+const context = require.context( './', true, /\.spec\.ts$/);
 
 // const context1 = require.context( './', true, /\.spec\.ts$/);
 // const context2 = require.context('../@modules', true, /\.spec\.ts$/);
